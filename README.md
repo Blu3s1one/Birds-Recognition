@@ -1,5 +1,13 @@
 # Birds Recognition
- Ce github contient tout les codes et les données utilisés et crées dans le cadre de notre projet semestre 3 à IMT Atlantique, ce projet répond à une demande de l'agglomération de Lorient qui souhaite automatiser le comptage d'espèces d'oiseau sur dans la visière du port de Lorient dans le but de quantifier plus facilement l'impact des techniques de draguages sur l'avifaune dans cette région.
+ This Github contains all codes and data used and created for our 3rd Semester Project at IMT Atlantique. This project answers to a request of Lorient Agglomeration, that is to test if Machine Learning can be used in order to help the study of birds in a mudflat.
+ 
 
-Les dossiers train, test et valid contiennent des photos d'oiseaux seul classés par espèce afin d'entrainer, test et valider nos algorithmes de reconnaissance d'espèces d'oiseaux.
+# Classification:
+It is the part of the project that aims to identify the species of a bird on a photo.
+
+The folders Train, Test and Valid contain the photos of birds alone classified by species in order to be used for the Train, Validation and Test phases of our algorithm training.
+
+The file DataAugmentation's purpose is to improve our Dataset by adding new version of the images in it. These new version are obtained by turning the images or changing their brightness.
+
+The file SpeciesClassification contains the definition of the neural network, and it's training, with some results representation.
 
