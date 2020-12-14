@@ -1,6 +1,8 @@
 # Resnet 18
 The folder Resnet_18 contains our dataset and the code that we use to train a model using Resnet18.
+
 The folders Train, Test and Valid contain the photos of birds alone classified by species in order to be used for the Train, Validation and Test phases of our algorithm training.
+
 The file SpeciesClassification contains the definition of the neural network, and it's training, with some results representation.
 
 # YOLO
